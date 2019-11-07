@@ -2,7 +2,6 @@ body {
   font: 400 15px Lato, sans-serif;
   line-height: 1.8;
   color: #818181;
-  padding-bottom: 300px;
 }
 
 h1{
@@ -361,6 +360,8 @@ box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
 	max-width: 100%;
   max-height: auto;
 }
+
+
 .hvrbox_background {
 	width: 400px;
 	height: 250px;
@@ -408,6 +409,8 @@ box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
 .hvr-fiction{
   background: rgba(10, 84, 148, 0.6) !important;
 }
+
+
 
 
 .hvrbox:hover .hvrbox-layer_top,
@@ -487,3 +490,55 @@ box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
   height: 50px;
 }
 /* End Subscribe */
+
+/* Begin footer */
+.footer{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.row-footer-1{
+  margin: 50px 50px 0 50px;
+}
+
+.row-footer-2{
+  margin: 0 50px 0 50px;
+  padding-bottom: 50px;
+}
+
+.list-inline i{
+  font-size: 36px;
+}
+
+.hvrbox-text li{
+  list-style: none;
+}
+
+.hvrbox-text a{
+  color: white !important;
+}
+
+.li-footer{
+  list-style: none;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  color: black !important;
+}
+
+.payments{
+  max-width: 100%;
+  max-height: auto;
+}
+
+.copyright{
+  background-color: #D72323;
+}
+
+.copyright-text{
+  padding: 50px auto;
+}
+
+.copyright-text h2{
+  color: white;
+}
+/* End footer */
