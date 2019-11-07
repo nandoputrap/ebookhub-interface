@@ -33,7 +33,7 @@
   <div class="container">
     <div class="row">
 
-        <div class="col-md-12">
+        <div class="col-lg-12">
           <h1 class="how-to-use-title text-center">Bagaimana menerbitkan buku di Eboookhub?</h1>
         </div>
 
@@ -70,6 +70,7 @@
 </div>
 <!-- End How-to-use -->
 
+<!-- Begin Baru diterbitkan -->
 <div class="baru-diterbitkan">
   <div class="container">
     <div class="row">
@@ -77,12 +78,24 @@
         <h1 class="text-center">Baru Diterbitkan</h1>
       </div>
 
-      <div class="col-lg-12">
-        <div id="owl-demo" class="owl-carousel owl-theme">
+      <div class="col-lg-12 text-center">
+        <div id="owl-baru-diterbitkan" class="owl-carousel owl-theme">
 
           <div class="item">
             <div class="card box-shadow">
               <img class="card-img-top img-fluid" src="images/ebook-1.png" alt="card-img">
+              <div class="card-body">
+                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
+                <p class="card-text ebook-author">Nama Penulis</p>
+                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="card box-shadow">
+              <img class="card-img-top img-fluid" src="images/ebook-2.png" alt="card-img">
               <div class="card-body">
                 <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
                 <p class="card-text ebook-author">Nama Penulis</p>
@@ -106,7 +119,7 @@
 
           <div class="item">
             <div class="card box-shadow">
-              <img class="card-img-top img-fluid" src="images/ebook-1.png" alt="card-img">
+              <img class="card-img-top img-fluid" src="images/ebook-2.png" alt="card-img">
               <div class="card-body">
                 <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
                 <p class="card-text ebook-author">Nama Penulis</p>
@@ -130,19 +143,7 @@
 
           <div class="item">
             <div class="card box-shadow">
-              <img class="card-img-top img-fluid" src="images/ebook-1.png" alt="card-img">
-              <div class="card-body">
-                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
-                <p class="card-text ebook-author">Nama Penulis</p>
-                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
-                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="card box-shadow">
-              <img class="card-img-top img-fluid" src="images/ebook-1.png" alt="card-img">
+              <img class="card-img-top img-fluid" src="images/ebook-2.png" alt="card-img">
               <div class="card-body">
                 <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
                 <p class="card-text ebook-author">Nama Penulis</p>
@@ -164,17 +165,181 @@
   </div>
 
 </div>
+<!-- End Baru diterbitkan -->
+
+<!-- Begin Buku terpopuler -->
+<div class="baru-diterbitkan">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="text-center">Buku Terpopuler</h1>
+      </div>
+
+      <div class="col-lg-12 text-center">
+        <div id="owl-buku-terpopuler" class="owl-carousel owl-theme">
+
+          <div class="item">
+            <div class="card box-shadow">
+              <img class="card-img-top img-fluid" src="images/ebook-1.png" alt="card-img">
+              <div class="card-body">
+                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
+                <p class="card-text ebook-author">Nama Penulis</p>
+                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="card box-shadow">
+              <img class="card-img-top img-fluid" src="images/ebook-2.png" alt="card-img">
+              <div class="card-body">
+                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
+                <p class="card-text ebook-author">Nama Penulis</p>
+                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="card box-shadow">
+              <img class="card-img-top img-fluid" src="images/ebook-1.png" alt="card-img">
+              <div class="card-body">
+                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
+                <p class="card-text ebook-author">Nama Penulis</p>
+                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="card box-shadow">
+              <img class="card-img-top img-fluid" src="images/ebook-2.png" alt="card-img">
+              <div class="card-body">
+                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
+                <p class="card-text ebook-author">Nama Penulis</p>
+                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="card box-shadow">
+              <img class="card-img-top img-fluid" src="images/ebook-1.png" alt="card-img">
+              <div class="card-body">
+                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
+                <p class="card-text ebook-author">Nama Penulis</p>
+                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="card box-shadow">
+              <img class="card-img-top img-fluid" src="images/ebook-2.png" alt="card-img">
+              <div class="card-body">
+                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
+                <p class="card-text ebook-author">Nama Penulis</p>
+                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"></i>&nbsp; Beli</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="customNavigation">
+          <a class="btn prev2">Previous</a>
+          <a class="btn next2">Next</a>
+          <!-- <a class="btn play">Autoplay</a>
+          <a class="btn stop">Stop</a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- End Buku terpopuler -->
 
 
+<!-- Begin Kategori -->
+<div class="kategori">
+  <div class="container-fluid">
+    <div class="row">
 
+      <div class="col-sm-12">
+        <h1 class="text-center">Kategori</h1>
+      </div>
 
+      <div class="col-md-6 col-sm-12">
+        <div class="hvrbox">
+          <div class="centered"><h1>Non-Fiksi</h1></div>
+			    <img src="images/non-fiction.jpg" alt="Fiksi" class="hvrbox-layer_bottom">
+			    <div class="hvrbox-layer_top hvrbox-layer_slideup hvr-non-fiction">
+				    <div class="hvrbox-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ligula porttitor, lacinia sapien non.</div>
+			    </div>
+		    </div>
+      </div>
 
-
-
+      <div class="col-md-6 col-sm-12">
+        <div class="hvrbox">
+          <div class="centered"><h1>Fiksi</h1></div>
+			    <img src="images/fiction.jpg" alt="Mountains" class="hvrbox-layer_bottom">
+			    <div class="hvrbox-layer_top hvrbox-layer_slideup hvr-fiction">
+				    <div class="hvrbox-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ligula porttitor, lacinia sapien non.</div>
+			    </div>
+		    </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Kategori -->
 
 <!-- Begin partner -->
+<div class="partner">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>Partner Kami</h1>
+      </div>
 
+      <div class="col-md-3 col-sm-12">
+        <img src="images/gramedia.png" alt="">
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <img src="images/kompas.jpg" alt="">
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <img src="images/elex.png" alt="">
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <img src="images/mizan.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</div>
 <!-- End partner -->
+
+<!-- Begin Subscribe -->
+<div class="subscribe">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 subscribe-box text-center">
+        <h2>Jadilah yang pertama tahu berita dan promosi menarik dari kami! (Gratis)</h2>
+        <div class="input-group input-subscribe">
+          <input type="email" class="form-control" placeholder="Masukkan alamat e-mail...">
+          <span class="input-group-btn">
+            <button class="btn btn-danger" type="submit">Berlangganan</button>
+          </span>
+        </div>
+	    </div>
+    </div>
+  </div>
+</div>
+<!-- End Subscribe -->
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

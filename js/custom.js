@@ -24,7 +24,8 @@
 
     $(document).ready(function() {
 
-      var owl = $("#owl-demo");
+      var owl = $("#owl-baru-diterbitkan");
+      var owl2 = $("#owl-buku-terpopuler");
 
       owl.owlCarousel({
           items : 3, //10 items above 1000px browser width
@@ -48,4 +49,44 @@
         owl.trigger('owl.stop');
       })
 
+
+      owl2.owlCarousel({
+          items : 3, //10 items above 1000px browser width
+          itemsDesktop : [1000,5], //5 items between 1000px and 901px
+          itemsDesktopSmall : [900,3], // betweem 900px and 601px
+          itemsTablet: [600,2], //2 items between 600 and 0
+          itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+      });
+
+      // Custom Navigation Events
+      $(".next2").click(function(){
+        owl2.trigger('owl2.next2');
+      })
+      $(".prev2").click(function(){
+        owl2.trigger('owl2.prev2');
+      })
+      $(".play2").click(function(){
+        owl2.trigger('owl2.play2',1000); //owl2.play event accept autoPlay speed as second parameter
+      })
+      $(".stop2").click(function(){
+        owl2.trigger('owl2.stop2');
+      })
+
+    });
+
+
+    $(function() {
+    	var mobileScreenTreshold = 1024;
+    	$(".hvrbox").click(function(e) {
+    		if($(window).width() <= mobileScreenTreshold) {
+    			if($(this).hasClass("active")) {
+    				$(this).removeClass("active");
+    			} else {
+    				e.preventDefault();
+    				$(this).addClass("active");
+    			}
+    		} else {
+    			$(this).removeClass("active");
+    		}
+    	});
     });

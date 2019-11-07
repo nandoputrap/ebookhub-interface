@@ -13,7 +13,7 @@ h1{
 
 h2 {
   font-size: 24px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #303030;
   font-weight: 600;
   margin-bottom: 30px;
@@ -348,3 +348,142 @@ box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
   margin: 20px auto;
 }
 /* End Baru diterbitkan */
+
+/* Begin Kategori */
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox img {
+	max-width: 100%;
+  max-height: auto;
+}
+.hvrbox_background {
+	width: 400px;
+	height: 250px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered h1{
+  font-size: 56px;
+  color: white;
+}
+
+.hvr-non-fiction{
+  background: rgba(215, 36, 36, 0.6) !important;
+}
+
+.hvr-fiction{
+  background: rgba(10, 84, 148, 0.6) !important;
+}
+
+
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+.hvrbox .hvrbox-layer_image {
+	padding: 0;
+	background: none;
+}
+.hvrbox .hvrbox-layer_slideup {
+	-moz-transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+}
+.hvrbox:hover .hvrbox-layer_slideup,
+.hvrbox.active .hvrbox-layer_slideup {
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+}
+/* End Kategori */
+
+/* Begin Partner */
+.partner img{
+  max-width: 100%;
+  max-height: auto;
+}
+/* End Partner */
+
+
+/* Begin Subscribe */
+.subscribe{
+  margin-top: 100px;
+  background-color: #1976D2;
+}
+
+.subscribe-box{
+  padding: 50px 0;
+}
+
+.subscribe-box h2{
+  color: white;
+}
+
+.subscribe-box .input-group{
+  padding: 0 20%;
+}
+
+.input-subscribe input,
+.input-subscribe button{
+  height: 50px;
+}
+/* End Subscribe */
