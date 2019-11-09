@@ -51,6 +51,7 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#about">Kategori</a></li>
+            <li><a href="shop.php">Shop</a></li>
 
             <li>
 

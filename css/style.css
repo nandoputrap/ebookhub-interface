@@ -542,3 +542,28 @@ box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
   color: white;
 }
 /* End footer */
+
+
+/* SIDEBAR.PHP */
+
+.sidebar-menu{
+  margin-bottom: 50px;
+}
+
+/* SIDEBAR.PHP */
+
+
+/* SHOP .PHP */
+.shop{
+  margin-top: 100px;
+}
+
+.card-img-top{
+  max-width: 100%;
+  max-height: auto;
+}
+
+.card-product{
+  margin: 30px auto;
+}
+/* SHOP .PHP */
