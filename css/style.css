@@ -697,3 +697,32 @@ box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
   margin-top: -30px;
 }
 /* UNGGAH.PHP */
+
+/* STATUS-PENGAJUAN.PHP*/
+.status-pengajuan{
+  margin: 100px auto;
+}
+
+.p-status-pengajuan{
+  font-size: 24px;
+  color: #303030;
+  margin-bottom: 30px;
+}
+
+.p-head{
+  font-weight: 600;
+}
+
+.vertically-center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.status{
+  color: #D72323;
+  padding-top: 0 !important;
+}
+/* STATUS-PENGAJUAN.PHP*/
