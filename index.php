@@ -88,7 +88,7 @@
                 <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
                 <p class="card-text ebook-author">Nama Penulis</p>
                 <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
-                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> </i>&nbsp; Beli</a>
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@
                 <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
                 <p class="card-text ebook-author">Nama Penulis</p>
                 <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
-                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> </i>&nbsp; Beli</a>
               </div>
             </div>
           </div>
@@ -112,7 +112,7 @@
                 <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
                 <p class="card-text ebook-author">Nama Penulis</p>
                 <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
-                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> </i>&nbsp; Beli</a>
               </div>
             </div>
           </div>
@@ -124,7 +124,7 @@
                 <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
                 <p class="card-text ebook-author">Nama Penulis</p>
                 <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
-                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> </i>&nbsp; Beli</a>
               </div>
             </div>
           </div>
@@ -136,7 +136,7 @@
                 <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
                 <p class="card-text ebook-author">Nama Penulis</p>
                 <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
-                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> </i>&nbsp; Beli</a>
               </div>
             </div>
           </div>
@@ -148,7 +148,7 @@
                 <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
                 <p class="card-text ebook-author">Nama Penulis</p>
                 <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
-                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> </i>&nbsp; Beli</a>
               </div>
             </div>
           </div>
@@ -185,7 +185,7 @@
                 <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
                 <p class="card-text ebook-author">Nama Penulis</p>
                 <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
-                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> </i>&nbsp; Beli</a>
               </div>
             </div>
           </div>
@@ -197,7 +197,7 @@
                 <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
                 <p class="card-text ebook-author">Nama Penulis</p>
                 <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
-                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> </i>&nbsp; Beli</a>
               </div>
             </div>
           </div>
@@ -209,7 +209,7 @@
                 <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
                 <p class="card-text ebook-author">Nama Penulis</p>
                 <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
-                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> </i>&nbsp; Beli</a>
               </div>
             </div>
           </div>
@@ -221,7 +221,7 @@
                 <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
                 <p class="card-text ebook-author">Nama Penulis</p>
                 <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
-                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> </i>&nbsp; Beli</a>
               </div>
             </div>
           </div>
@@ -233,7 +233,7 @@
                 <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
                 <p class="card-text ebook-author">Nama Penulis</p>
                 <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
-                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> </i>&nbsp; Beli</a>
               </div>
             </div>
           </div>

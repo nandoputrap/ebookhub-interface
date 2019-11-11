@@ -6,7 +6,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1>Daftar Akun Ebookhub</h1>
+        <h1 class="register-title">Daftar Akun Ebookhub</h1>
       </div>
 
       <div class="col-md-9 form-register-group">

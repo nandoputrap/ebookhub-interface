@@ -662,3 +662,38 @@ box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
   margin-top: 30px;
 }
 /* REGISTER.PHP */
+
+/* METODE-PEMBAYARAN.PHP */
+.img-bank{
+  max-width: 100%;
+  max-height: auto;
+}
+
+.radio-bank{
+  margin: 20px auto;
+}
+
+.panel-ringkasan-belanja{
+  border: 1px solid #0A5494;
+}
+
+.metode-pembayaran{
+  margin-top: 100px;
+}
+
+.panel-transfer{
+  background-color: #D72323 !important;
+  border: 1px solid #D72323 !important;
+}
+
+.panduan-pembayaran{
+  margin-bottom: 100px;
+}
+/* METODE-PEMBAYARAN.PHP */
+
+/* UNGGAH.PHP */
+.form-group-kategori{
+  padding-left: 10px;
+  margin-top: -30px;
+}
+/* UNGGAH.PHP */

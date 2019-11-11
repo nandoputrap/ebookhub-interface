@@ -71,8 +71,8 @@
 
           <h4 class="ebook-price ebook-price-single"><strong>Rp. 100.000</strong></h4>
 
-          <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> &nbsp; Beli</i></a>
-          <a href="cart.php" class="btn btn-lg btn-info btn-beli text-capitalize"><i class="fa fa-plus"> &nbsp; Tambah ke Keranjang</i></a>
+          <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"></i>&nbsp; Beli</a>
+          <a href="cart.php" class="btn btn-lg btn-info btn-beli text-capitalize"><i class="fa fa-plus"> </i>&nbsp; Tambah ke Keranjang</a>
 
 
         </div>
