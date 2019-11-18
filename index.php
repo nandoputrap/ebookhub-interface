@@ -1,5 +1,6 @@
 <?php
   require_once("templates/header.php");
+  // include_once("functions.php");
 ?>
 
 
@@ -13,7 +14,7 @@
         <h3 id="greetings-3">Ebookhub ingin membantu minat baca di Indonesia, ayo mulai membaca dan menerbitkan sekarang!</h3>
 
         <div class="col-md-6">
-          <button type="button" class="btn btn-primary btn-block btn-ebookhub">Mulai Baca</button>
+          <button type="button" class="btn btn-primary btn-block btn-ebookhub" onclick="window.location='#kategori'">Mulai Baca</button>
         </div>
         <div class="col-md-6">
           <button type="button" class="btn btn-primary btn-block btn-ebookhub">Mulai Terbitkan</button>
@@ -81,77 +82,12 @@
       <div class="col-lg-12 text-center">
         <div id="owl-baru-diterbitkan" class="owl-carousel owl-theme">
 
-          <div class="item">
-            <div class="card box-shadow">
-              <img class="card-img-top img-fluid" src="images/ebook-1.png" alt="card-img">
-              <div class="card-body">
-                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
-                <p class="card-text ebook-author">Nama Penulis</p>
-                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
-                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> </i>&nbsp; Beli</a>
-              </div>
-            </div>
-          </div>
+          <?php
 
-          <div class="item">
-            <div class="card box-shadow">
-              <img class="card-img-top img-fluid" src="images/ebook-2.png" alt="card-img">
-              <div class="card-body">
-                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
-                <p class="card-text ebook-author">Nama Penulis</p>
-                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
-                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> </i>&nbsp; Beli</a>
-              </div>
-            </div>
-          </div>
+            getEbooks();
 
-          <div class="item">
-            <div class="card box-shadow">
-              <img class="card-img-top img-fluid" src="images/ebook-1.png" alt="card-img">
-              <div class="card-body">
-                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
-                <p class="card-text ebook-author">Nama Penulis</p>
-                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
-                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> </i>&nbsp; Beli</a>
-              </div>
-            </div>
-          </div>
+           ?>
 
-          <div class="item">
-            <div class="card box-shadow">
-              <img class="card-img-top img-fluid" src="images/ebook-2.png" alt="card-img">
-              <div class="card-body">
-                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
-                <p class="card-text ebook-author">Nama Penulis</p>
-                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
-                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> </i>&nbsp; Beli</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="card box-shadow">
-              <img class="card-img-top img-fluid" src="images/ebook-1.png" alt="card-img">
-              <div class="card-body">
-                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
-                <p class="card-text ebook-author">Nama Penulis</p>
-                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
-                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> </i>&nbsp; Beli</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="card box-shadow">
-              <img class="card-img-top img-fluid" src="images/ebook-2.png" alt="card-img">
-              <div class="card-body">
-                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
-                <p class="card-text ebook-author">Nama Penulis</p>
-                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
-                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"> </i>&nbsp; Beli</a>
-              </div>
-            </div>
-          </div>
         </div>
 
         <div class="customNavigation">
@@ -266,7 +202,7 @@
 
 
 <!-- Begin Kategori -->
-<div class="kategori">
+<div class="kategori" id="kategori">
   <div class="container-fluid">
     <div class="row">
 
@@ -281,10 +217,7 @@
 			    <div class="hvrbox-layer_top hvrbox-layer_slideup hvr-non-fiction">
 				    <div class="hvrbox-text">
               <ul>
-                <li><a href="#">Nama kategori</a></li>
-                <li><a href="#">Nama kategori</a></li>
-                <li><a href="#">Nama kategori</a></li>
-                <li><a href="#">Nama kategori</a></li>
+                <?php getCategoriesNonfiction(); ?>
               </ul>
             </div>
 			    </div>
@@ -298,10 +231,7 @@
 			    <div class="hvrbox-layer_top hvrbox-layer_slideup hvr-fiction">
 				    <div class="hvrbox-text">
               <ul>
-                <li><a href="#">Nama kategori</a></li>
-                <li><a href="#">Nama kategori</a></li>
-                <li><a href="#">Nama kategori</a></li>
-                <li><a href="#">Nama kategori</a></li>
+                <?php getCategoriesFiction(); ?>
               </ul>
             </div>
 			    </div>

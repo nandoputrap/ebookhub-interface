@@ -7,11 +7,7 @@
 
     <div class="panel-body">
       <ul class="nav nav-pills nav-stacked category-menu">
-        <li><a href="#">Nama Kategori</a></li>
-        <li><a href="#">Nama Kategori</a></li>
-        <li><a href="#">Nama Kategori</a></li>
-        <li><a href="#">Nama Kategori</a></li>
-        <li><a href="#">Nama Kategori</a></li>
+        <?php getSubCategories(); ?>
       </ul>
     </div>
   </div>

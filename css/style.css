@@ -190,7 +190,9 @@ footer .glyphicon {
         box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
 }
 
-
+.section-margin{
+  margin: 100px auto;
+}
 
 
 
@@ -726,3 +728,26 @@ box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
   padding-top: 0 !important;
 }
 /* STATUS-PENGAJUAN.PHP*/
+
+/* GOOGLE MAP */
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+/* GOOGLE MAP */
+
+/* FAQ.PHP */
+.faq-group{
+  margin: 50px auto;
+}
+/* FAQ.PHP */
