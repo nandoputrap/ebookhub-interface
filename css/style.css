@@ -206,6 +206,10 @@ footer .glyphicon {
   /* padding: 15px; /* firefox bug fix */ */
   width: auto;
 }
+
+.dropdown-menu{
+  padding: 20px;
+}
 /* End navigation */
 
 /* Begin welcome */
