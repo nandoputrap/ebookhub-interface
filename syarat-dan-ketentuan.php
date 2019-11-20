@@ -1,5 +1,5 @@
 <?php
-  require_once("templates/header.php");
+require_once("templates/header.php");
 ?>
 
 <div class="syarat section-margin">
@@ -77,16 +77,22 @@
         <br>
 
         <h2>UU ITE NO.11 TAHUN 2008 BAB III MENGENAI SURAT ELEKTRONIK</h2>
-        <ol class="list-group">
+        <ul class="list-group">
           <h4>PASAL 5 </h4>
           <li>Informasi Elektronik dan/atau Dokumen Elektronik dan/atau hasil cetaknya merupakan alat bukti hukum yang sah.</li>
+        </ul>
+        <ul class="list-group">
           <h4>PASAL 5 AYAT 4 </h4>
           <li>Surat yang menurut undang-undang harus dibuat tertulis meliputi tetapi tidak terbatas pada surat berharga, surat yang berharga, dan surat yang digunakan dalam proses penegakan hukum acara perdata, pidana, dan administrasi negara.</li>
+        </ul>
+        <ul class="list-group">
           <h4>PASAL 6 </h4>
           <li>Dalam hal terdapat ketentuan lain selain yang diatur dalam Pasal 5 ayat (4) yang mensyaratkan bahwa suatu informasi harus berbentuk tertulis atau asli, Informasi Elektronik dan/atau Dokumen Elektronik dianggap sah sepanjang informasi yang tercantum di dalamnya dapat diakses, ditampilkan, dijamin keutuhannya, dan dapat dipertanggungjawabkan sehingga menerangkan suatu keadaan.</li>
+        </ul>
+        <ul class="list-group">
           <h4>PASAL 7 </h4>
           <li>Setiap Orang yang menyatakan hak, memperkuat hak yang telah ada, atau menolak hak Orang lain berdasarkan adanya Informasi Elektronik dan/atau Dokumen Elektronik harus memastikan bahwa Informasi Elektronik dan/atau Dokumen Elektronik yang ada padanya berasal dari Sistem Elektronik yang memenuhi syarat berdasarkan Peraturan Perundang-undangan.</li>
-        </ol>
+        </ul>
         <br>
       </div>
     </div>
@@ -94,5 +100,5 @@
 </div>
 
 <?php
-  require_once("templates/footer.php");
+require_once("templates/footer.php");
 ?>

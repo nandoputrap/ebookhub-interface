@@ -1,5 +1,5 @@
 <?php
-  require_once("templates/header.php");
+require_once("templates/header.php");
 ?>
 
 
@@ -30,7 +30,7 @@ while($row_ebooks = mysqli_fetch_array($run_ebooks)){
   $tahun = $row_ebooks['tahun'];
   $jumlah_halaman = $row_ebooks['jumlah_halaman'];
 }
- ?>
+?>
 
 
 <div class="shop">
@@ -115,11 +115,111 @@ while($row_ebooks = mysqli_fetch_array($run_ebooks)){
       </div>
     </div>
 
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Buku-buku karya <strong>Nando P. Pratama Lainnya</strong> </h2>
 
+        <div class="col-md-3 col-sm-4">
+          <div class="item">
+            <div class="card box-shadow text-center card-product">
+              <img class="card-img-top img-fluid" src="images/ebook-1.png" alt="card-img">
+              <div class="card-body">
+                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
+                <p class="card-text ebook-author">Nama Penulis</p>
+                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"></i>&nbsp; Beli</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-4">
+          <div class="item">
+            <div class="card box-shadow text-center card-product">
+              <img class="card-img-top img-fluid" src="images/ebook-1.png" alt="card-img">
+              <div class="card-body">
+                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
+                <p class="card-text ebook-author">Nama Penulis</p>
+                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"></i>&nbsp; Beli</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
     </div>
+
+    <div class="row section-margin">
+      <div class="col-md-12">
+        <h2>Buku-buku Terkait</h2>
+
+        <div class="col-md-3 col-sm-4">
+          <div class="item">
+            <div class="card box-shadow text-center card-product">
+              <img class="card-img-top img-fluid" src="images/ebook-1.png" alt="card-img">
+              <div class="card-body">
+                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
+                <p class="card-text ebook-author">Nama Penulis</p>
+                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"></i>&nbsp; Beli</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-4">
+          <div class="item">
+            <div class="card box-shadow text-center card-product">
+              <img class="card-img-top img-fluid" src="images/ebook-1.png" alt="card-img">
+              <div class="card-body">
+                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
+                <p class="card-text ebook-author">Nama Penulis</p>
+                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"></i>&nbsp; Beli</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-4">
+          <div class="item">
+            <div class="card box-shadow text-center card-product">
+              <img class="card-img-top img-fluid" src="images/ebook-1.png" alt="card-img">
+              <div class="card-body">
+                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
+                <p class="card-text ebook-author">Nama Penulis</p>
+                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"></i>&nbsp; Beli</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-4">
+          <div class="item">
+            <div class="card box-shadow text-center card-product">
+              <img class="card-img-top img-fluid" src="images/ebook-1.png" alt="card-img">
+              <div class="card-body">
+                <a href="index.php"><h3 class="card-title ebook-title"><strong>Judul buku</strong></h3></a>
+                <p class="card-text ebook-author">Nama Penulis</p>
+                <h4 class="card-title ebook-price"><strong>Rp. 100.000</strong></h4>
+                <a class="btn btn-lg btn-danger btn-beli text-capitalize"><i class="fa fa-shopping-cart"></i>&nbsp; Beli</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+  </div>
 
 </div>
 
 <?php
-  require_once("templates/footer.php");
+require_once("templates/footer.php");
 ?>

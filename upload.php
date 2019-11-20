@@ -16,7 +16,6 @@
           <div class="form-group">
             <label for="kategori"></label>
             <select class="form-control form-register form-group-kategori" id="kategori">
-              <!-- <option>-Pilih kategori-</option> -->
               <option>Kategori 1</option>
               <option>Kategori 2</option>
               <option>Kategori 3</option>

@@ -129,7 +129,7 @@ h4 {
   color: black !important;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #0A5494 !important;
+  color: #0A5494;
   background-color: #fff !important;
 }
 .navbar-default .navbar-toggle {
@@ -572,6 +572,14 @@ box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
 .card-product{
   margin: 30px auto;
 }
+
+.active-pagination{
+  background-color: #D72323 !important;
+}
+
+.pagination{
+  /* margin-left: 20px; */
+}
 /* SHOP .PHP */
 
 /* DETAILS.PHP */
@@ -660,7 +668,7 @@ box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
 
 .form-register{
   height: 50px;
-  margin: 30px auto;
+  margin: 10px auto 30px auto;
   /* padding: 0 50px; */
 }
 
@@ -755,3 +763,13 @@ position:absolute;
   margin: 50px auto;
 }
 /* FAQ.PHP */
+
+/* EDIT PROFIL.PHP */
+.form-profil{
+  height: 50px;
+}
+
+.active-profil{
+  background-color: #eeeeee !important;
+}
+/* EDIT PROFIL.PHP */
